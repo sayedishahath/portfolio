@@ -78,13 +78,22 @@ element.style {
     width:275px;
     border: 7px solid #974EC3;
     box-shadow: 7px 4px 15px -6px #000000;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 .work-ss2{
     height: 275px;
     width:275px;
     border: 7px solid #974EC3;
     box-shadow: 7px 4px 15px -6px #000000;
-
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.work-ss:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.work-ss2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .start-works{
     margin-top: 50px;
@@ -113,7 +122,7 @@ element.style {
     height: 50px;
     width: 200px;
     border-radius: 10px;
-    transition: background-color 0.3s ease
+    transition: background-color 0.3s ease-in;
 }
 .cont-text{
     display: flex;
