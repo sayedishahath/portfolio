@@ -64,34 +64,40 @@ element.style {
 }
 .work-done{
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 275px 1fr;
     margin-bottom: 30px;
 }
 .work-done2{
     display: grid;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 1fr 275px;
     margin-bottom: 30px;
     text-align: right;
 }
 .work-ss{
     height: 275px;
-    width:250px;
+    width:275px;
     border: 7px solid #974EC3;
     box-shadow: 7px 4px 15px -6px #000000;
 }
 .work-ss2{
     height: 275px;
-    width:250px;
+    width:275px;
     border: 7px solid #974EC3;
     box-shadow: 7px 4px 15px -6px #000000;
-    margin-left: 50px;
+
 }
 .start-works{
     margin-top: 50px;
 }
-.flex-show{
+.flex-show-1{
     display: flex;
     flex-direction: column;
+    margin-left: 25px;
+}
+.flex-show-2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
 }
 .work-done-view{
     display: grid;
@@ -179,4 +185,7 @@ element.style {
 }
 footer.my-5{
     margin-bottom: 0 !important;
+}
+.text-bold{
+    font-weight: bolder;
 }
